@@ -5,8 +5,6 @@ public class Questao05 {
         Scanner in = new Scanner(System.in);
 
 
-
-
         in.close();
     }
 }
