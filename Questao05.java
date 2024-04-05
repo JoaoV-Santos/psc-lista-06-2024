@@ -6,7 +6,7 @@ public class Questao05 {
 
         int[] numeros = new int[20];
         int[] pares = new int[20];
-        int[] impares;
+        int[] impares = new int[20];
 
         for (int i = 0; i < numeros.length; i++) {
             System.out.print("Insira o número " + (i+1) + ": ");
@@ -16,10 +16,16 @@ public class Questao05 {
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] % 2 == 0)
                 pares[i] = numeros[i];
+            else
+                impares[i] = numeros[i];
         }
-
+        System.out.print("\nNúmeros Pares: ");
         for (int p : pares)
-            System.out.println(p);
+            System.out.print(p + " ");
+
+        System.out.print("\nNúmeros Ímpares: ");
+        for (int i : impares)
+            System.out.print(i + " ");
 
         in.close();
     }
