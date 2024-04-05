@@ -5,7 +5,7 @@ public class Questao06 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        double[] media = new double[3];
+        double[] media = new double[10];
         double soma = 0;
         int aprovados = 0;
 
